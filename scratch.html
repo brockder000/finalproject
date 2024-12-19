@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+    background-color: #f0ead6; /* Light green with a tan tint */
+}
+
+        /* CSS to center text */
+        .center-text {
+            text-align: center;
+        }
+
+        /* Change font to Arial */
+        .arial-font {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Change font color to blue */
+        .blue-text {
+            color: blue;
+        }
+
+        /* Change font to bold */
+        .bold-text {
+            font-weight: bold;
+        }
+
+        /* Change font to italics */
+        .italic-text {
+            font-style: italic;
+        }
+
+        /* Style for positioning and styling blocks of content */
+        .box1 {
+            width: 100%;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border: 2px solid #ccc;
+            margin-bottom: 20px;
+        }
+
+        .box2 {
+            width: 50%;
+            padding: 20px;
+            background-color: #d9f7be;
+            border: 2px solid #4CAF50;
+            margin: 10px auto;
+        }
+
+        .box3 {
+            width: 75%;
+            padding: 20px;
+            background-color: #e0e0e0;
+            border: 2px solid #999;
+            margin: 20px auto;
+        }
+
+        /* YouTube video container styles */
+        .video-container {
+            display: flex;
+            justify-content: center; /* Centers horizontally */
+            align-items: center;     /* Centers vertically, if necessary */
+            margin-top: 20px;        /* Optional: Adds some space from the top */
+        }
+
+        /* Example inline styles for Masthead */
+        .masthead {
+            background-image: url('file:///C:/Users/derek/OneDrive/Desktop/startbootstrap-clean-blog-gh-pages/index.html');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center 25px; /* Adjust this value */
+            height: 300px; /* Adjust header height if needed */
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="top" class="center-text" class="bold-text">Derek Brock</h1>
+    <a class="box1" href="index.html">Click here to open the resume</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <a class= "box1" href="joke.html"> Click here for real funny jokes</a>
+    <br>
+    <br>
+    <ul> 
+        <li class="blue-text">
+            Running Achievements</li>
+        <ul> 
+            <li class="italic-text">16:06 5k</li> 
+            <li class="italic-text">10:09 2 Miler</li>
+            <li class="italic-text">4:40 Miler </li>
+        </ul>
+        
+    </ul>
+
+    <ul>
+        <li class="blue-text">Top 5 Mountaineering Achievements</li>
+        <ol> 
+            <li class="italic-text">Mnt. Olympus West Slabs</li>
+            <li class="italic-text">Bighorn Peak during winter</li>
+            <li class="italic-text">Full Timpanogos Traverse at night</li>
+            <li class="italic-text">Devil's Castle</li>
+            <li class="italic-text">Salt Lake Twin Peaks</li>
+        </ol>
+    </ul>
+
+    <!-- YouTube Embed Section -->
+    <div class="video-container">
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/0D-p-Sztgoc" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <!-- Masthead -->
+    <header class="masthead">
+        <!-- Your content -->
+    </header>
+    <div class='tableauPlaceholder' id='viz1734571731440' style='position: relative'>
+        <noscript>
+            <a href='#'>
+                <img alt=' ' src='https://public.tableau.com/static/images/Ho/HowAmericaUsesItsLand/USAMap/1_rss.png' style='border: none' />
+            </a>
+        </noscript>
+        <object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='HowAmericaUsesItsLand/USAMap' />
+            <param name='tabs' value='yes' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https://public.tableau.com/static/images/Ho/HowAmericaUsesItsLand/USAMap/1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+        </object>
+    </div>
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1734571731440');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width='900px';vizElement.style.height='500px';
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+
+    <!-- Back to Top Link -->
+     <br>
+     <br>
+    <a class="box3" href="#top">Back to Top</a>
+</body>
+</html>
